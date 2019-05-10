@@ -16,9 +16,9 @@ AnzPh = 11;
 AnzPv = 6;
 parHor = [2;0.1]; % Start und Inkrement Power
 parVer = [50;50]; % Start und Inkrement Scangeschwindigkeit
-p = y/(AnzPh+0.33*(AnzPh-1)); %Feldgrösse (Probe so einscannen, dass erste und letzte Fläche bündig beginnen/enden)
-h = 0.33*p; %horizontale Lücke
-v = 0.33*p; %vertikale Lücke
+p = y/(AnzPh+0.33*(AnzPh-1)); %FeldgrÃ¶sse (Probe so einscannen, dass erste und letzte FlÃ¤che bÃ¼ndig beginnen/enden)
+h = 0.33*p; %horizontale LÃ¼cke
+v = 0.33*p; %vertikale LÃ¼cke
 C = zeros(AnzPh*AnzPv+1,5);
 C(:,1) = 0.01; %Linienabstand
 %% Power
