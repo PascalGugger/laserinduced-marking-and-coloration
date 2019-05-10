@@ -1,4 +1,4 @@
-# laserinduced-marking-and-coloration
+# CAM-laserinduced-marking-and-coloration
 This repository contains three versions of a CAM program to convert pixel-based images to machine code explicitly used for lasermarking. The program version use different algorithms to generate laser-induced markings from black&white over grayscales to even colors. All the code annotations are exclusively in German.
 
 The MATLAB scripts and functions are sorted in the folders "Farben", "Graustufen" and "Schwarzweiss" containing the different versions of this program. To run one of these programs in MATLAB start the MATLAB main script marked with the prefix "bitmap_scanner_". Further procedure is carried out in the MATLAB command window. Please be aware that two paths for data allocation have to be adjusted.
