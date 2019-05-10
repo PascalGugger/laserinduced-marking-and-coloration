@@ -3,7 +3,7 @@ clc
 clear all
 close all
 name = input('Name: ');
-disp('Alle Farben auswählen inklusive der unbearbeiteten Oberfläche (zum Schluss).');
+disp('Alle Farben auswÃ¤hlen inklusive der unbearbeiteten OberflÃ¤che (zum Schluss).');
 A=input('Anzahl Proben: ');
 bitmap = cell(A,1);
 map = zeros(A,3);
@@ -20,7 +20,7 @@ for z = 1:1:A
     map(z,2) = sum(sum(bitmap{z}(:,:,2)))/(x*y);
     map(z,3) = sum(sum(bitmap{z}(:,:,3)))/(x*y);
     
-    %% Abspeichern der zugehörigen Parameter
+    %% Abspeichern der zugehÃ¶rigen Parameter
     C{z,1} = input([num2str(z),'. Ls [mm]: ']);
     C{z,2} = input([num2str(z),'. Vs [mm/s]: ']);
     C{z,3} = input([num2str(z),'. P [W]: ']);
